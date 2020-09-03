@@ -170,13 +170,27 @@ span
 }
 @media screen and (max-width:1000px)
 {
+    .hero
+    {
+        width: 100%;
+        padding: 0 20px;
+    }
     .banner-wrapper
     {
         flex-direction: column;
+    
+    }
+    .searchBox-wrapper 
+    {
+        width: 100%;
+    }
+    .banner-left-column h1
+    {
+        font-size: 90px;
     }
     .banner-right-column
     {
-        margin-top: 50px;
+        display:none;
     }
     .navbar-links-wrapper
     {
